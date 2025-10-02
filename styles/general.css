@@ -863,6 +863,9 @@
   .nav-top{
     display: none;
   }
+  .navigation{
+    top: 0px !important;
+  }
 .tips-page-container {
   padding: 0% 10px;
 }

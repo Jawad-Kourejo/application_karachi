@@ -863,8 +863,11 @@
   .nav-top{
     display: none;
   }
-  .navigation{
-    top: 0px !important;
+    .navigation{
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    z-index: 999999999;
   }
 .tips-page-container {
   padding: 0% 10px;

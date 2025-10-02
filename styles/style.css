@@ -1849,7 +1849,15 @@ body {
   width: 60px;
   height: 60px;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--primary-color);
+}
+.services-page-bottom-content-absolute > div > div > img{
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
 }
 
 .services-page-bottom-content > div:hover {

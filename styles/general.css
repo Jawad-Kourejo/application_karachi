@@ -156,7 +156,10 @@
   height: 200px;
 }
 
-
+.CSR-page-container {
+  width: 100%;
+  padding: 0% 30px;
+}
 
 
 
@@ -857,6 +860,9 @@
 }
 
 @media (max-width: 650px) {
+  .nav-top{
+    display: none;
+  }
 .tips-page-container {
   padding: 0% 10px;
 }

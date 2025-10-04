@@ -444,7 +444,7 @@ body {
 .maintenance-buttons {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
   /* margin: 3rem 0px; */
@@ -507,7 +507,7 @@ body {
 .maintenance-card {
   width: 100%;
   padding-top: 50px;
-  margin-top: 150px;
+  margin-top: 50px;
   border-radius: 50px;
   transition: all 0.3s ease;
   position: relative;
@@ -524,10 +524,7 @@ body {
 .maintenance-card-gl > .maintenance-card-content > .maintenance-card-name {
   background: var(--secondary-color);
 }
-.maintenance-card-dm > .maintenance-card-content,
-.maintenance-card-dm > .maintenance-card-content > .maintenance-card-name {
-  background: var(--tertiary-color);
-}
+
 .maintenance-card:hover {
   transform: scale(1.05);
 }
@@ -535,32 +532,6 @@ body {
   padding: 50px;
   border-radius: 20px;
   position: relative;
-}
-.maintenance-card-name {
-  width: fit-content;
-  height: 60px;
-  position: absolute;
-  top: -80px;
-  left: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 700;
-  border-radius: 20px 20px 0px 0px;
-  background: #cd7f32;
-}
-.maintenance-card-name > div {
-  width: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0%;
-  border: none !important;
-}
-.maintenance-card-name > div > span {
-  font-weight: 500;
-  font-size: 1rem;
-  margin-right: 10px;
 }
 .maintenance-card-content > h2 {
   font-size: 2.5rem;

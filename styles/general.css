@@ -19,10 +19,11 @@
 .pages-hero-section > div > div{
     width: 1150px;
     color: white;
+    padding-left: 1rem;
     /* border: 1px solid white; */
 }
 .pages-hero-section > div > div > h3{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     padding: 0.3rem 1rem;
     border-left: 7px solid var(--primary-color);
 }
@@ -190,7 +191,9 @@
   body{
     padding-top: 150px;
   }
-
+.pages-hero-section > div > div > h3{
+    font-size: 1.8rem;
+  }
   .navigation-links > div {
     display: none;
   }
